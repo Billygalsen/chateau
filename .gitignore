@@ -1,0 +1,29 @@
+# Fichiers temporaires et système
+.DS_Store
+Thumbs.db
+
+# IDE / éditeur
+.vscode/
+.idea/
+
+# Dépendances / build
+node_modules/
+vendor/
+
+# Fichiers de configuration locaux / secrets
+.env
+*.local
+cle*api*
+
+# PHP / logs
+*.log
+logs/
+
+# OneDrive / fichiers temporaires
+~$*
+*.tmp
+
+# Ignorer les fichiers compressés lourds (si vous utilisez LFS, retirez cette règle)
+*.zip
+*.tar.gz
+*.7z
